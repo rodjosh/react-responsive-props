@@ -33,7 +33,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "react-responsive-props",
+  "name": "@rodjosh/react-responsive-props",
   "author": "rodjosh",
   "module": "dist/react-responsive-props.esm.js",
   "size-limit": [
@@ -60,5 +60,24 @@
   },
   "dependencies": {
     "react-responsive": "^9.0.0-beta.6"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Is a simple library on top of react-responsive that allows to change component props based on breakpoints",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodjosh/react-responsive-props.git"
+  },
+  "keywords": [
+    "react",
+    "responsive"
+  ],
+  "bugs": {
+    "url": "https://github.com/rodjosh/react-responsive-props/issues"
+  },
+  "homepage": "https://github.com/rodjosh/react-responsive-props#readme"
 }
