@@ -4,25 +4,24 @@ import * as ReactDOM from 'react-dom';
 import { useResponsive } from "../dist";
 
 interface TextProps {
-    word: string;
-    children: string;
+    words: string;
 }
 
-const Text = ({word, children}: TextProps) => {
-    return <h1>{children}{' '}{word}</h1>
+const Text = ({words}: TextProps) => {
+    return <h1>{words}</h1>
 }
 
 const App = () => {
     const responsiveComponent = useResponsive();
     const ResponsiveText = responsiveComponent<typeof Text>(Text, {
         md: {
-            word: 'Desktop'
+            words: 'Desktop'
         }
     });
 
   return (
     <div>
-        <ResponsiveText word="Mobile">Hello</ResponsiveText>
+        <ResponsiveText words="Mobile" />
     </div>
   );
 };
