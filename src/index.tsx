@@ -34,7 +34,7 @@ export const useResponsive = (
   const extralarge = useMediaQuery({ minWidth: xl });
 
   return <T extends (props: any) => JSX.Element>(
-    Component: React.FunctionComponent,
+    Component: (props: any) => JSX.Element,
     values: ResponsiveProps<T>
   ) => {
     const values_sm = values?.sm ?? {};
