@@ -92,3 +92,9 @@ Now that we have our `ResponsiveText` defined, we can use it and **ALL** the att
 ## Typescript
 
 This library is typed, so when you define the properties on the breakpoints, you'll get the IDE suggestions and warnings.
+
+## Try it out
+
+This is a simple POC uploaded to CodeSanbox. For some reason the display size is only calculated on reload, so everytime you resize the window reload to see the changes (This only happens on CodeSandbox, locally works fine)
+
+###[CodeSandbox Project](https://codesandbox.io/s/useresponsive-ufzxts)
